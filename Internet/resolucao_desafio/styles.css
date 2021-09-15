@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+
+}
+.options {
+
+  min-width: 150px;
+}
+.main {
+  flex-grow: 1;
+  }
+#roles label {
+  display: block;
+}

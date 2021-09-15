@@ -1,0 +1,13 @@
+html {
+  background-color: rgb(255, 255, 255);
+}
+#Teste {
+  font-style: Arial, 12px, blue;
+  font: normal, 28pt, blue;
+  width: 300px;
+  height: 100px;
+  padding: 12px;
+  border: rgb(0, 0, 0);
+  margin: 8px, black;
+  background-color: rgb(17, 226, 209);
+}

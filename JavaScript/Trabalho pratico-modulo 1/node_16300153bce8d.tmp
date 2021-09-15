@@ -1,0 +1,9 @@
+
+let n= 2
+        let c= 2
+while(c <=10) {
+   let s =""
+    s+=`${n} % ${c}= ${n%c}`
+    console.log(s)
+    
+    }

@@ -1,0 +1,14 @@
+var readline= require("readline");
+var r1 = readline.createInterface({
+    input : process.stdin,
+    output : process.stdout,
+})
+var numaleatorio= Math.round(Math.random() *100)
+if (numaleatorio === 0){
+    numaleatorio === 1
+}
+var numTentativa = 10
+
+r1.question("Digite um número", function(numero){
+    console.log(numero)
+})

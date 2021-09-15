@@ -1,0 +1,13 @@
+
+let n= 7
+let c= n
+while(c <=n++) {
+   let s =""
+    s+= n%c
+    c++
+    if (s!=0){
+        console.log ("Não primo")
+    } else {
+        console.log( `O número ${n} é primo`)
+    }
+    }

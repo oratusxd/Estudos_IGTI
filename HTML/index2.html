@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+
+</head>
+<body>
+    <p id ="Paragrafo1">Esse é um parágrafo</p>
+<input type="text" id="input-color"> 
+    <button type="button" onclick="document.getElementById('Paragrafo1').style.visibility='hidden'">
+    Esconder Parágrafo</button>
+    <button type="button" onclick="document.getElementById('Paragrafo1').style.visibility='visible'">
+        Mostrar Parágrafo</button>
+         <button type="button" onclick="document.getElementById('Paragrafo1').style.color='blue'">
+                Trocar Cor para azul</button>
+                <button type="button" onclick="trocarCor()">Trocar Cor</button>
+        <script>
+            setTimeout(()=>{
+                var p = document.getElementById('Paragrafo1')
+            p.style.color="red"
+            p.style.fontWeight="bold"
+            p.style.fontSize="20px"
+            },1)
+      function trocarCor(){
+          var cor=document.getElementById("input-color").value
+      document.getElementById('Paragrafo1').style.color= cor
+      }
+            
+                    </script>
+</body>
+</html>
